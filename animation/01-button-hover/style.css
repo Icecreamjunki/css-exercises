@@ -17,15 +17,12 @@ button {
   font-size: 18px;
   padding: 16px 24px;
   text-align: match-parent;
+  transition: 0.5s;
+}
+
+button:hover{
   
+  font-size: xx-large;
+ 
+  transition: 0.5s;
 }
-
-button {
-  transition: transform .3s ease-in-out;
-}
-
-button:hover {
-  transform: scale(1.2)
-}
-
-
